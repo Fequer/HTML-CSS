@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+    In HTML it is id = in CCS it is #
+    In HTML it is class = in CSS it is .
+
+*/
+
+
+body {
+    background-color: #9cff93;
+
+}
+
+h1 {
+    color: #1a7000;
+}
+
+h1#main {
+    text-align: center;
+    background-color: #1a7000;
+    color: white;
+}
+
+
+h2 {
+    color: #0d3800;
+}
