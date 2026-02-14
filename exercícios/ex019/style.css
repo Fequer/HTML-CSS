@@ -1,28 +1,43 @@
 @charset "UTF-8";
 
 /*
-    In HTML it is id = in CCS it is #
-    In HTML it is class = in CSS it is .
+    In HTML it is id = in CCS it is # (only one element)
+    In HTML it is class = in CSS it is . (can multiple elements)
 
 */
-
-
 body {
-    background-color: #9cff93;
+    background-color: #5BE17D;
 
 }
 
 h1 {
-    color: #1a7000;
+    color: #20502C;
 }
 
 h1#main {
     text-align: center;
-    background-color: #1a7000;
+    background-color: #3B9451;
     color: white;
 }
 
-
 h2 {
-    color: #0d3800;
+    color: #2E723F;
+}
+
+.basic {
+    color: green;
+
+}
+
+.intermediate {
+    color: yellow;
+
+}
+.advanced {
+    color: red;
+
+}
+
+.highlight {
+    background-color: rgb(245, 234, 87);
 }
